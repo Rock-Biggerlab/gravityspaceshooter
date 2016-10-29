@@ -14,7 +14,7 @@ void gameMove(){
     }
     else
     {
-      explode();
+      gameState=2;
     }
     
   }
@@ -38,10 +38,6 @@ void showPlanets(){
 
 void addEnergy(){
   energyPoints+=10;
-}
-
-void explode(){
-  println("explode!!!!");
 }
 
 void fadePlanets(){

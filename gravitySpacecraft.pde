@@ -14,6 +14,7 @@ PImage startBackgroundImage;
 PImage gameBackgroundImage;
 PImage endBackgroundImage;
 PImage[] startText;
+PImage endText;
 int startTextIndex=0;
 
 String filename = "winged_star.svg";
@@ -31,6 +32,7 @@ void setup(){
   startBackgroundImage=loadImage("backgroundImage.jpg");
   gameBackgroundImage=loadImage("spacebghd.jpg");
   endBackgroundImage=loadImage("cityspacebackground.jpg");
+  endText = loadImage("endText1.png");
   
   startText=new PImage[4];
   
@@ -80,6 +82,8 @@ void setup(){
   planets[1].attachImage(planet1);
   planets[2].attachImage(planet2);
   planets[3].attachImage(planet3);
+  
+  explosionImage= loadImage("explosion.png");
   
   energyBall= new FCircle(60);
   energyBall.setPosition(random(100,width-100),random(100,height-100));

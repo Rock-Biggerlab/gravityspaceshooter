@@ -42,6 +42,10 @@ void keyPressed()
       }
     break;
     case 2:
+      if (key==' ')
+      {
+        gameState=1;
+      }
     break;
     }
   
