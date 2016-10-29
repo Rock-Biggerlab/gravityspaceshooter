@@ -1,6 +1,5 @@
 /**
  *  
- *
  *  This project require the library <a href="http://www.ricardmarxer.com/geomerative">Geomerative</a>.
  */
 
@@ -8,7 +7,7 @@ import fisica.*;
 import geomerative.*;
 
 FWorld world;
-int gameState=1;
+int gameState=0;
 
 PImage startBackgroundImage;
 PImage gameBackgroundImage;

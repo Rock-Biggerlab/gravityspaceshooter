@@ -19,6 +19,7 @@ void keyPressed()
       if (startTextIndex==4 && key==' ')
       {
         gameState++;
+        startTextIndex=0;
       }
     break;
     case 1:
